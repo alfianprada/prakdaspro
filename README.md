@@ -19,3 +19,18 @@ P Ganjil = jenis kegiatan "PKM", dokumen = 2+0 = 2, status pendanaan = 1 (lolos)
 | Jenis Kegiatan | Dokumen | Peringkat/Pendanaan   | Output yang diharapkan | 
 |--------------------------------------------------------------------------
 |      PKM       |    4    | 0 (bukan juara 1/2/3) | Berhak memperoleh dana penghargaan (PKM lolos pendanaan) |
+
+Hasil Uji Studi Kasus 2 oleh Alfian Prada Anindhia
+P genap = jenis kegiatan "BELMAWA" ,dokumen = 4, peringkat juara =2+1= 3
+---------------------------------------------------------
+| No | Jenis | Dokumen | Juara/Dana | Output  | Sesuai? |	
+|----|-------|---------|------------|---------|---------|	
+| 1  |   1   |    4    |      3     | Berhak  |   Ya    |
+| 2  |   4   |    4    |    tidak   | tidak   |   Ya    |
+| 3  |   5   |    4    |      -     | tidak   |   Ya    |
+---------------------------------------------------------
+
+---------------------------------------------------------------------------------
+| Jenis Kegiatan | Dokumen | Peringkat/Pendanaan   |   Output yang diharapkan   | 
+|-------------------------------------------------------------------------------|
+|    BELMAWA     |    4    |          3            | Dana penghargaan diberikan |
