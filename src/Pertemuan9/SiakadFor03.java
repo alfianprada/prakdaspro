@@ -1,0 +1,22 @@
+package Pertemuan9;
+
+import java.util.Scanner;
+
+public class SiakadFor03 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double nilai,tertinggi=0,terendah=100;
+        for (int i = 1; i <= 11; i++) {
+            System.out.print("Masukkan nilai mahasiswa ke-"+i+": ");
+            nilai=sc.nextDouble();
+            if (nilai > tertinggi) {
+                tertinggi = nilai;
+            } 
+            if (nilai < tertinggi) {
+                terendah = nilai;
+            }
+        }
+        System.out.println("Nilai tertinggi : "+ tertinggi);
+        System.out.println("Nilai terendah : "+terendah);
+    }
+}
