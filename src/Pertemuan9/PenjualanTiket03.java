@@ -11,7 +11,7 @@ public class PenjualanTiket03 {
         Scanner al = new Scanner(System.in);
         int tiket,totaltiket=0,i=1;
         int hargaTiket=46000;
-        double diskon=0,totalHarga;
+        double diskon=0,totalHarga=0,harga=0;
         String diskonp="";
         do {
             System.out.print("Masukkan jumlah tiket ke-"+i+"(masukkan 0 untuk keluar): ");
@@ -24,23 +24,25 @@ public class PenjualanTiket03 {
                 System.out.println("Tiket tidak valid");
                 continue;
             }
-            totaltiket=totaltiket+tiket;
-            if (totaltiket > 0 && totaltiket <= 3) {
+            if (tiket > 0 && tiket <= 3) {
                 diskon=0;
                 diskonp="diskon 0%";
-            } else  if (totaltiket > 3 && totaltiket <= 11){
+            } else  if (tiket > 3 && tiket <= 11){
                 diskon=0.11;
                 diskonp="diskon 11%";
             } else {
                 diskon=0.18;
                 diskonp="18%";
             }
+            totaltiket=totaltiket+tiket;
+            harga=tiket*hargaTiket-diskon;
+            totalHarga=totalHarga+harga;
             i++;
+            System.out.println("Diskon anda adalah : "+diskonp);
+            System.out.println("Harga tiket anda saat ini adalah : Rp"+harga++);
             System.out.println("Jumlah tiket anda saat ini adalah: "+totaltiket);
         } while (true);
-        totalHarga=totaltiket*hargaTiket-diskon;
         System.out.println("Total tiket anda adalah: "+totaltiket);
-        System.out.println("diskon anda adalah: "+diskonp);
         System.out.println("Total harga tiket adalah Rp "+totalHarga);
     }
 }
