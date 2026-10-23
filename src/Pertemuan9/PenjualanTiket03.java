@@ -24,17 +24,17 @@ public class PenjualanTiket03 {
                 System.out.println("Tiket tidak valid");
                 continue;
             }
-            if (tiket > 0 && tiket <= 3) {
+            totaltiket=totaltiket+tiket;
+            if (totaltiket > 0 && totaltiket <= 3) {
                 diskon=0;
                 diskonp="diskon 0%";
-            } else  if (tiket > 3 && tiket <= 11){
+            } else  if (totaltiket > 3 && totaltiket <= 11){
                 diskon=0.11;
                 diskonp="diskon 11%";
             } else {
                 diskon=0.18;
                 diskonp="18%";
             }
-            totaltiket=totaltiket+tiket;
             i++;
             System.out.println("Jumlah tiket anda saat ini adalah: "+totaltiket);
         } while (true);
