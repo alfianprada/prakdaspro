@@ -1,3 +1,8 @@
+//Percobaan 1 (uji tambahan,langkah 10) n (uji ke-1) 3 + (3 mod 5) = 6
+//Percobaan 1 (uji tambahan,langkah 10) n (uji ke-2) 9 + (3 mod 5) = 12
+//Percobaan 1 (Pertanyaan 1 & 2) n 4 + (3 mod 4) = 7
+//Percobaan 1 (Pertanyaan 3) n 10 + (3 mod 6) = 13
+
 package Pertemuan10;
 
 import java.util.Scanner;
