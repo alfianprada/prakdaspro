@@ -1,5 +1,6 @@
 //Percobaan 2 (uji tambahan,langkah 9) (baris, kolom) uji ke-1 (2 + (3 mod 3) = 2, 4 + (3 mod 3)) = 4
 //Percobaan 2 (uji tambahan,langkah 9) (baris, kolom) uji ke-2 (5 + (3 mod 3) = 5, 2 + (3 mod 3)) = 2
+//Percobaan 2 (Pertanyaan 2) baris, kolom 4 + (3 mod 4) = 7, 6 + (3 mod 4) = 9
 
 package Pertemuan10;
 
