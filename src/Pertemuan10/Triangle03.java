@@ -9,13 +9,21 @@ public class Triangle03 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukkan nilai n = ");
         int n = sc.nextInt();
+        char huruf='a';
+
 
         int i = 1;
-        while (i <= n) { 
-            int j = 0;
-            while (j < i) { 
-                System.out.print("*");
+        while (i <= 5) { 
+            int j = 1;
+            while (j <= 5 - i) { 
+                System.out.print(" ");
                 j++;
+            }
+            int k=1;
+            while (k<= (2*i-1)) {
+                System.out.print(huruf);
+                huruf++;
+                k++;
             }
             System.out.println();
             i++;
