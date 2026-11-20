@@ -7,11 +7,7 @@ import java.util.Arrays;
 public class ArrayBilangan03 {
     public static void main(String[] args) {
 
-        int[] bil = new int[4];
-        bil[0] = 3;
-        bil[1] = 11;
-        bil[2] = -2;
-        bil[3] = 20;
+        int[] bil = {3,11,-2,20};
 
         for (int i = 0; i < bil.length; i++) {
         System.out.println("bil[" + i + "] = " + bil[i]);
