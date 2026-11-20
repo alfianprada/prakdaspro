@@ -32,7 +32,11 @@ public class SearchNilai03 {
             }
         }
         if (!ditemukan) {
-            System.out.println("Nilai " + key + " tidak ditemukan.");
+            System.out.println("Nilai yang dicari tidak ditemukan!");
+            System.out.println("Nilai pencarian: " + key);
+            System.out.println("Jumlah elemen array: " + nilai.length);
+            System.out.println("Indeks yang diperiksa: 0 sampai " + (nilai.length - 1));
+            System.out.println("Silakan masukkan nilai yang tersedia.");
         }
     }
 }
